@@ -99,7 +99,7 @@ periodic maintenance jobs.
 ## Mobile App & Cross-Language API
 
 A companion mobile app (Ionic/Android) is backed by a dedicated 
-Python API (see: [see separate repository](https://github.com/elast-net/2017-mobile-api)). To avoid duplicating core 
+Python API ([see separate repository](https://github.com/elast-net/2017-mobile-api)). To avoid duplicating core 
 business logic across two languages, the Python API communicates 
 with a dedicated **internal PHP API**, which triggers the same 
 operations otherwise handled natively by the web application's PHP 
