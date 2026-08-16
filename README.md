@@ -16,7 +16,7 @@ and Python-based backend.
 The platform combines a public-facing web application (predictions, 
 rankings, admin-managed content) with:
 
-* a companion mobile app (Ionic/Android) backed by a dedicated Python API
+* a companion mobile app (Ionic/Android) backed by a dedicated Python API ([see separate repository](https://github.com/elast-net/2017-mobile-api))
 * third-party integrations (social, messaging, payments)
 * a custom task-scheduling mechanism working around shared-hosting cron limits
 * an isolated deployment/testing pipeline
@@ -99,7 +99,7 @@ periodic maintenance jobs.
 ## Mobile App & Cross-Language API
 
 A companion mobile app (Ionic/Android) is backed by a dedicated 
-Python API (see: *Mobile API* project). To avoid duplicating core 
+Python API (see: ([see separate repository](https://github.com/elast-net/2017-mobile-api))). To avoid duplicating core 
 business logic across two languages, the Python API communicates 
 with a dedicated **internal PHP API**, which triggers the same 
 operations otherwise handled natively by the web application's PHP 
